@@ -100,7 +100,7 @@ img {
 
 /* criando início */
 #inicio {
-    background: linear-gradient(63.13deg, #5a556b 51.04%, #2e2d36 51.05%);
+    background: linear-gradient(63.13deg, #515162 51.04%, #18212B 51.05%);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -125,12 +125,12 @@ img {
 .descricao {
     font-size: 25px;
     grid-area: descricao;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .meu-nome {
     font-size: 50px;;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .redes ul {
@@ -188,7 +188,7 @@ img {
 @media (max-width:1200px) {
     
     #inicio{
-        background: #2e2d36;
+        background: #18212B;
         height: auto;
     }
 
