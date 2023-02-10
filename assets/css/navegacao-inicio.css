@@ -133,32 +133,17 @@ img {
     color: black;
 }
 
-.linkedin {
-    width: 100px;
-    height: 45px;
-    background-color:#31008b;
+.redes ul {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 32px;
 }
 
-.linkedin a {
-    width: 100%;
-    padding: 5px 0;
+.redes ul a {
+    display: block;
+    padding: 5px;
 }
 
-.link {
-    font-size:15px;
-    width:50%;
-    text-align: center;
-    padding: 10px 0 ;
-    transition: ease-in-out 0.1s;
-}
-
-.link:hover {
-    letter-spacing: 3px;
-    color: white;
+.redes ul li img {
+    max-width: 50px;
 }
 
 .desenho {
@@ -203,7 +188,7 @@ img {
 @media (max-width:1200px) {
     
     #inicio{
-        background: #352728;
+        background: #2e2d36;
         height: auto;
     }
 
