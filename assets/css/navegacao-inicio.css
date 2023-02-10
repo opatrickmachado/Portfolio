@@ -125,10 +125,12 @@ img {
 .descricao {
     font-size: 25px;
     grid-area: descricao;
+    color: black;
 }
 
 .meu-nome {
     font-size: 50px;;
+    color: black;
 }
 
 .linkedin {
