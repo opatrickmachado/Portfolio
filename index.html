@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <title>Portfólio | Patrick Machado</title>
+  <link rel="icon" type="image/x-icon" href="/assets/img/logo.png" />
+  <!-- Navegação e início -->
+  <link rel="stylesheet" href="/assets/css/navegacao-inicio.css" />
+  <!-- Sobre mim -->
+  <link rel="stylesheet" href="/assets/css/sobre-mim.css" />
+  <!-- Projetos -->
+  <link rel="stylesheet" href="/assets/css/projetos.css" />
+  <!-- Habilidades -->
+  <link rel="stylesheet" href="/assets/css/habilidades.css" />
+  <!-- footer -->
+  <link rel="stylesheet" href="/assets/css/footer.css" />
+</head>
+
+<body onload="typeWriter(fName);">
+  <div>
+    <!-- menu -->
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="close-menu" role="button" />
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <div class="barra">
+      <div class="menu-centro">
+        <div class="barra-conteiner centralizador">
+          <div class="logo esquerda">
+            <a href="index.html"><img src="/assets/img/logo.png" alt="logo" /></a>
+          </div>
+          <nav class="direita">
+            <ul onclick="getElementById('close-menu').checked=false;">
+              <li><a href="#inicio">Início</a></li>
+              <li><a href="#sobre-mim">Sobre mim</a></li>
+              <li><a href="#projetos">Projetos</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- menu -->
+
+    <!-- primeira tela -->
+    <section id="inicio">
+      <div class="altura-ajuste">
+        <div class="inicio centralizador">
+          <div class="ajustador organizador">
+            <div class="apresentacao">
+              <p class="descricao">
+                Olá, eu sou <br />
+                <span style="display: inline" class="meu-nome">Patrick Machado.</span>
+                <br />
+                <!-- Desenvolvedor Full Stack -->
+                Full Stack Developer
+              </p>
+              <br />
+              <nav class="redes">
+                <ul>
+                  <li>
+                    <a href="https://www.linkedin.com/in/patrickmachadodepaula/" target="_blank">
+                      <img src="assets/img/linkedin.png" alt="Linkedin">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/opatrickmachado" target="_blank">
+                      <img src="assets/img/github.png" alt="Github">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://drive.google.com/file/d/1Y8NckXHQb4znOrNZ60XFL91_I9NCfSjY/view?usp=sharing"
+                      target="_blank">
+                      <img src="assets/img/cv.png" alt="Currículo">
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="desenho">
+              <img class="desenho2" src="/assets/img/eu.png" alt="Eu-em-desenho" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- primeira tela -->
+
+    <!-- Jogo do Mario -->
+<section id="jogo-mario" style="background-color: #858585; padding: 50px 0; text-align: center;">
+  <h2 style="font-size: 36px; margin-bottom: 20px;">Venha se divertir jogando o meu Jogo do Mario!</h2>
+  <iframe src="https://joguinhodomario.vercel.app/" style="width:80%; height:600px; border: 5px solid #f8c471;"></iframe>
+  <p style="margin-top: 20px;">Clique no jogo acima e comece a diversão!</p>
+</section>
+
+    <!-- sobre mim -->
+    <section id="sobre-mim">
+      <div class="centralizador">
+        <div class="ajustador-2">
+          <div class="avatar">
+            <img class="desenho-bg" src="/assets/img/avatar.png" alt="avatar" />
+            <div class="circulo-conteiner">
+              <img class="circulo css" src="/assets/img/css-circle.png" alt="css" />
+              <img class="circulo html" src="/assets/img/html-circle.png" alt="css" />
+              <img class="circulo js" src="/assets/img/js-circle.png" alt="js" />
+            </div>
+          </div>
+          <div class="sobre-mim">
+            <h2>Sobre mim</h2>
+            <br />
+            <p>
+              Sou um Desenvolvedor Web Freelancer altamente qualificado, especializado em projetos completos, desde a criação de websites responsivos até o desenvolvimento de aplicações web eficientes. Com sólidas habilidades em Laravel e Vue.js, tenho um histórico comprovado de entregas pontuais e dentro do orçamento, com uma taxa de satisfação do cliente de 100%. Mantenho-me constantemente atualizado e em busca de oportunidades de aprendizado para oferecer soluções inovadoras. Destaco-me por implementar estratégias de otimização de desempenho, resultando em tempos de carregamento reduzidos e uma experiência aprimorada para os usuários.
+            </p>
+            <br />
+            <p>
+              Hoje já entendo tecnologias como ReactJS, Bootstrap, Mysql, etc.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- sobre mim -->
+
+    <!-- Projetos -->
+    <section id="projetos">
+      <div class="centralizador projetos">
+        <h2 class="project">Projetos</h2>
+        <div class="projetos-itens">        
+          
+          <div class="pro"><a href="https://joguinhodomario.vercel.app">
+            <img src="assets/img/JoguinhoDoMario.png" alt="Joguinho do Mario - HTML/CSS e JavaScript">
+          </a>
+        </div>
+          <div class="pro"><a href="https://curriculum-drab-alpha.vercel.app/">
+              <img src="assets/img/Curriculo.png" alt="Curriculo">
+            </a>
+          </div>
+          <div class="pro"><a href="https://mario-faq-collapse.vercel.app/">
+              <img src="assets/img/Mario.png" alt="Mario FAQ Collapse">
+            </a>
+          </div>
+          <div class="pro escondido"><a href="https://formulario-de-cadastro-sooty.vercel.app/">
+              <img src="assets/img/Formulario.png" alt="Formulário de Cadastro">
+            </a>
+          </div>
+          <div class="pro escondido"><a href="https://login-git-hub-five.vercel.app/">
+              <img src="assets/img/logingithub.png" alt="Login pelo Github">
+            </a>
+          </div>
+          <div class="pro escondido"><a href="https://new-login-ecru.vercel.app/">
+              <img src="assets/img/login dark-light mode.png" alt="Login Dark/Light Mode">
+            </a>
+          </div>
+          <div class="pro escondido"><a href="https://login-html-css.vercel.app/">
+              <img src="assets/img/login.png" alt="Login">
+            </a>
+          </div>                         
+
+          <div class="github-link">
+            <button>Ver mais</button>
+
+            <h1 style="font-size: 36px; font-weight: bold; color: #ffffff;">Meu Projeto de Sistema Web Completo com Tecnologias:</h1><h3 style="font-size: 26px; font-weight: bold; color: #ff0000;">Laravel, Blade, HTML, CSS, Bootstrap e PHPMyAdmin</h3> 
+
+          <div class="video-wrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/DlObbeE3exM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+            
+            <style>
+              .video-wrapper {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                border: 2px solid #ccc;
+                border-radius: 10px;
+                overflow: hidden;
+              }
+            </style>
+            
+            
+            <a href="https://github.com/opatrickmachado" target="_blank"
+              style="border-radius: 10px; overflow: hidden; display: inline-block;">
+              <img src="assets/img/opatrickmachado.png" alt="Patrick Machado" style="border-radius: 10px;">
+              <br>Acesse meus Repositórios no Github
+            </a>
+
+          </div>
+        </div>
+    </section>
+    <!-- Projetos -->
+
+    <!-- Habilidades -->
+    <section id="habilidades">
+      <div class="centralizador">
+        <div class="habilidades-pd">
+          <h2 class="project">Habilidades</h2>
+          <div class="skills-descricao">
+            <div class="conteiner-skills">
+              <div class="skill-box skill1 html-skill">
+                <img class="icones-habilidades" src="/assets/img/html.svg" alt="html-icon" />
+              </div>
+              <div class="skill-box skill2 css-skill">
+                <img class="icones-habilidades" src="/assets/img/css.svg" alt="css-icon" />
+              </div>
+              <div class="skill-box skill3 js-skill">
+                <img class="icones-habilidades" src="/assets/img/js.svg" alt="js-icon" />
+              </div>
+              <div class="skill-box skill4">
+                <img class="icones-habilidades" src="/assets/img/php.svg" alt="php-icon" />
+              </div>
+              <div class="skill-box skill5">
+                <img class="icones-habilidades" src="/assets/img/java.svg" alt="java-icon" />
+              </div>
+              <div class="skill-box skill6">
+                <img class="icones-habilidades" src="/assets/img/sql.svg" alt="sql-icon" />
+              </div>
+              <div class="skill-box skill7">
+                <img class="icones-habilidades" src="/assets/img/git.svg" alt="git-icon" />
+              </div>
+              <div class="skill-box skill8">
+                <img class="icones-habilidades" src="/assets/img/github.svg" alt="github-icon" />
+              </div>
+            </div>
+            <div class="conteiner-descricao">
+              <p class="texto-descricao">
+                Passe o cursor do mouse por cima de alguma habilidade para mais informações..
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Habilidades -->
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-conteiner">
+        <div class="contato-creditos">
+          <!--Botão whatsapp-->
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+          <a href="http://wa.me/5511973248818" target="_blank">
+            <div class="btn-whatsapp pulsaDelay"><i class="fa fa-whatsapp"></i></div>
+          </a><!--Botão whatsapp-->
+          <div align=center><a href='https://contador.s12.com.br'><img
+                src='https://contador.s12.com.br/img-Dbzd1a61A02C2wyw-9.gif' border='0'
+                alt='contador de acesso'><br />Muito Obrigado pela sua visita ao meu Portfólio</a>
+            <script type='text/javascript' src='https://contador.s12.com.br/ad.js?id=Dbzd1a61A02C2wyw'></script>
+          </div>
+        </div>
+        <div class="icons">
+          <div class="links links1">
+            <a href="https://github.com/opatrickmachado" target="_blank">
+              <img class="transparente" src="/assets/img/githubff.svg" alt="github-icon" />
+            </a>
+          </div>
+          <div class="links links2">
+            <a href="https://www.linkedin.com/in/patrickmachadodepaula/" target="_blank">
+              <img class="transparente" src="/assets/img/linkedinff.svg" alt="github-icon" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer -->
+  </div>
+  <script src="./assets/js/scroll.js"></script>
+  <script src="./assets/js/maquina_escrever.js"></script>
+  <script src="./assets/js/habilidades.js"></script>
+</body>
+
+</html>
