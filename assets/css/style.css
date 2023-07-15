@@ -15,15 +15,13 @@
 
 .box-artigo   { width:100%; float:left; text-align:center; background:#fff; box-shadow: 1px 0px 1.2px 0px #e3e3e3; border-radius:3px; padding:1em; }
 
-<<<<<<< HEAD
+
 .clever-chatbot {
     position: fixed;
     left: 0;
     bottom: 0;
 }
 
-=======
->>>>>>> 766f3ce7868bdcec9fca045e236ce99edaa8da4a
 /*Botao Whatsapp*/
 .btn-whatsapp a {
 
@@ -33,30 +31,23 @@
 }
 
 .btn-whatsapp {
-    
-<<<<<<< HEAD
     position:fixed;
     right:90px;
-=======
-    position:fixed; 
-    right:75px; 
->>>>>>> 766f3ce7868bdcec9fca045e236ce99edaa8da4a
-    bottom:30px; 
+    position:fixed;
+    right:75px;
+    bottom:30px;
     transform: translate(-50%, -50%);  
     background-color:rgb(37, 211, 102); 
     width:60px; height:60px; 
     text-align:center; 
     line-height:58px; 
-    font-size:1.8em; 
-<<<<<<< HEAD
+    font-size:1.8em;
     color:#ffffff;
     font-weight:100; 
     border-radius:30%;
-=======
-    color:#ffffff; 
+    color:#ffffff;
     font-weight:100; 
     border-radius:50%; 
->>>>>>> 766f3ce7868bdcec9fca045e236ce99edaa8da4a
 }
 
 .btn-whatsapp:before,
