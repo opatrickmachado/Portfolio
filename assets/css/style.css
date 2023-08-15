@@ -68,6 +68,14 @@
     backface-visibility:hidden;    
 }
 
+.meu-cartao {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto; /* centraliza o iframe se ele for menor que a largura da tela */
+    display: block; /* garante que o iframe seja tratado como um bloco, o que é necessário para a centralização */
+}
+
 .pulsaDelay:after { animation-delay: .5s; }
 
 @keyframes animate {
